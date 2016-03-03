@@ -1,0 +1,125 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 280px;
+    min-height: 280px;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 14px;
+    font-family: "Arial", sans-serif;
+    line-height: 1.2;
+    background: #fff;
+    color: #000;
+}
+
+.block1 {
+    width: 1400px;
+    height: 315px;
+    font-size: 40px;
+    font-family: Trebuchet MS;
+    background: #0c131a url(task2/back_image.png) no-repeat;
+    background-blend-mode: multiply;
+}
+
+.top_text {
+    text-align: center;
+    padding-top: 58px;
+}
+
+span.what {
+    color: #ee8129;
+}
+
+span.CLIENT_SAYS {
+    color: #3170a8;
+}
+
+.girl_img {
+    background: url(task2/girl_face.png)no-repeat;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 138px;
+    left: 190px;
+}
+
+.man_img {
+    background: url(task2/man_face.png)no-repeat;
+    height: 100px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 138px;
+    left: 740px;
+}
+
+.kind {
+    font-size: 13px;
+    font-family: Trebuchet MS;
+    font-style: italic;
+    color: #3070a8;
+}
+
+span.frame {
+    display:inline-block;
+    background-color: #F7F7F7;
+    height: 96px;
+    width: 362px;
+    position: relative;
+    left: 305px;
+    top: 14px;
+}
+
+span.frame:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 15px solid;
+    border-color: transparent #F7F7F7 transparent transparent;
+    top: 50%;
+    right: 100%;
+    margin-top: -15px;
+
+}
+
+span.name {
+    position: absolute;
+    margin: 13px;
+}
+
+span.right {
+    position: absolute;
+    top: 13px;
+    right: 20px;
+}
+
+.lorem {
+    font-size: 13px;
+    font-family: Trebuchet MS;
+    /* font-style: italic; */
+    color: #666666;
+    line-height: 1.5;
+    position: absolute;
+    left: 13px;
+    top: 35px;
+}
+
+span.boy_say {
+    position: relative;
+    left: 480px;
+}
+ 
+.dots {
+    font-size: 13px;
+    font-family: Trebuchet MS;
+    /* font-style: italic; */
+    color: #666666;
+    line-height: 1.5;
+    position: absolute;
+    left: 13px;
+    top: 25px;
+}

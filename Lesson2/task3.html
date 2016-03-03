@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Task Form</title>
+</head>
+<body>
+
+<form action="handler.php">
+    <p>Name<br><input maxlength="15"></p>
+    <p>Email<br><input maxlength="15"></p>
+
+    <p>Sex<br>
+    <input name="sex" type="radio" value="male"> Male
+        <input name="sex" type="radio" value="female"> Female</p>
+    <p>Current status<br>
+    <input type="checkbox" name="a" value="Student"> Student<br>
+    <input type="checkbox" name="a" value="Employed"> Employed<br>
+    <input type="checkbox" name="a" value="Unemployed"> Unemployed</p>
+
+    <p> Month and Year of birth <br>
+        <select name="month" size="1">
+        <option value="s1">January</option>
+        <option value="s2">February</option>
+        <option value="s3">March</option>
+        <option value="s4">April</option>
+        </select>
+            <select name="year" size="1">
+            <option value="r1">2000</option>
+            <option value="r2">2001</option>
+            <option value="r3">2002</option>
+            <option value="r4">2003</option>
+        </select>
+
+    <p> Skills and Technologies <br>
+    <select name="skills" size="10" multiple>
+        <optgroup label="Tech skills">
+            <option value="r1">HTML</option>
+            <option value="r2">CSS</option>
+            <option value="r3">JavaScript</option>
+            <option value="r3">git</option>
+        </optgroup>
+        <optgroup label="Soft skills">
+            <option value="u1">Time management</option>
+            <option value="u2">Proactivity</option>
+            <option value="u3">Teamwork</option>
+            <option value="u3">Leadership</option>
+        </optgroup>
+    </select></p>
+
+    <p>Photo<br><input type="file" name="photo" multiple accept="image/*,image/jpeg">
+
+    <p>Comments<br>
+    <textarea name="comment"></textarea></p>
+    <p><input type="submit" value="Save"></p>
+
+</form>
+
+</body>
+</html>

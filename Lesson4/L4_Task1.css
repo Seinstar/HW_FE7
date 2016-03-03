@@ -1,0 +1,41 @@
+body {
+    font-family: impact;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background: #a74eff;
+}
+
+.main-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+div {
+    margin: auto;
+}
+ul {
+    width: 900px;
+    margin-left: auto;
+}
+
+.main-menu li {
+    display:inline-block;
+    padding: 0;
+}
+
+.main-menu a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.main-menu a:hover {
+    background: lightgrey;
+    color: dimgrey;
+}

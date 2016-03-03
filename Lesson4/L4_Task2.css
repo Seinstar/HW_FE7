@@ -1,0 +1,44 @@
+body {
+    font-family: impact;
+    font-size: 18px;
+
+}
+
+.main-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #a74eff;
+    text-align: center;
+    box-sizing: border-box;
+    width: 900px;
+
+}
+
+.main-menu li {
+    display: inline;
+    margin: auto;
+    padding: 10px 20px;
+    height: 50px;
+}
+
+.main-menu a {
+    display: float;
+    color: white;
+    text-decoration: none;
+
+}
+
+.main-menu a:hover {
+    background: lightgrey;
+    color: dimgrey;
+}
+
+.main-menu li .right-element {
+    color: black;
+}
+
+.right-element {
+    position: relative;
+    right: -50px
+}
