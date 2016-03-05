@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: "PT Sans", sans-serif;
+}
+
+.paginator {
+    width: auto;
+    padding: 10px;
+    margin: 30px auto;
+    white-space: nowrap;
+    background: #ecf0f1;
+}
+
+.paginator a {
+    display: inline-block;
+    min-width: 20px;
+    height: 40px;
+    padding: 0 10px;
+    margin-right: 10px;
+    line-height: 40px;
+    color: #a74eff;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.paginator span {
+    vertical-align: bottom;
+    display: relative;
+    margin-right: 10px;
+}
+
+.paginator .prev,
+.paginator .first {
+    margin-right: 20px;
+    border: none;
+}
+
+.paginator .next,
+.paginator .last {
+    margin-left: 20px;
+    border: none;
+}
+.paginator .current {
+    background-color: #a74eff;
+    color: white;
+
+}
